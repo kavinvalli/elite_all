@@ -1,0 +1,11 @@
+{
+  "name": "elite-section-4-ex-1",
+  "version": "1.0.0",
+  "description": "Elite Section 4 exercise 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kavin Desi Valli",
+  "license": "ISC"
+}

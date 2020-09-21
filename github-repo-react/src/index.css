@@ -1,0 +1,56 @@
+body {
+    background-color: #f7f7f7;
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.repoList {
+    /* width: 100px; */
+    background-color: #fff;
+    border: 1px solid #dedede;
+    padding: 20px;
+    margin: 20px;
+}
+
+.userInfo {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.userInfo img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+.inputUsername {
+    width: 400px;
+    border: 1px solid #dedede;
+    height: 10px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    border: 1px solid #fff ;
+    background-color: rgb(104, 144, 255);
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(191, 208, 255);
+    cursor: pointer;
+}

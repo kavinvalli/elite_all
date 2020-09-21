@@ -1,0 +1,284 @@
+/* Navbar CSS */
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    height: 95px;
+    padding-top: 60px;
+    list-style-type: none;
+    margin: 0px;
+}
+
+.navbar>li.left-nav {
+    float: left;
+    font-family: Prompt, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 31px;
+    margin-left: 118px;
+}
+
+.navbar>.left-nav>p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar>li.right-nav {
+    float: right;
+    font-family: Inter, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.navbar>.button>p {
+    text-align: center;
+    padding: 8px !important;
+    margin: 0px;
+}
+
+.navbar>.button {
+    width: 107px;
+    height: 39px;
+    background-color: #000000;
+    border-radius: 71px;
+    color: white;
+    margin-right: 133px;
+}
+
+.navbar>.sign-up {
+    margin-right: 22px;
+    margin-top: 10px;
+}
+
+.navbar>.notification {
+    margin-right: 22px;
+    margin-top: 15px;
+    background-color: #000000;
+    padding: 4px 9px;
+    color: #ffffff;
+    border-radius: 50%;
+}
+
+
+/* All Content */
+
+.content {
+    margin-right: 118px;
+    margin-left: 119px;
+}
+
+
+/* Banner at top */
+
+.banner {
+    width: 100%;
+    border-radius: 33px;
+    height: 438px;
+    background-color: #5628D2;
+    color: white;
+}
+
+.banner>.text {
+    padding-top: 116px;
+    padding-left: 95px;
+    float: left;
+}
+
+.banner>.text>.motto {
+    font-family: Prompt;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 31px;
+    line-height: 47px;
+}
+
+.banner>.text>.sub-motto {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.banner>.text>.bold-text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.banner>.banner-image {
+    float: right;
+    margin-top: 85px;
+    padding: 0px;
+}
+
+
+/* Actual content on bottom */
+
+.row {
+    display: flex;
+    padding-top: 62px;
+}
+
+.filter {
+    flex: 11%;
+}
+
+.properties {
+    margin-left: 50px;
+    flex: 70%;
+}
+
+
+/* Filter Accordian */
+
+.accordion {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px !important;
+    line-height: 27px;
+    padding: 0px;
+    width: 215px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.accordion:after {
+    content: '\002B';
+    /* color: #777; */
+    font-weight: bold;
+    color: #5628D2;
+    font-size: 30px;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "x";
+    color: #5628D2;
+}
+
+.panel {
+    /* padding: 0 18px; */
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px !important;
+    line-height: 16px;
+}
+
+.panel > ul,li {
+    list-style-type: none;
+    padding: 8px 0px;
+    margin: 0px;
+}
+
+/* Properties Side */
+.properties > .sorting > input[type="text"] {
+    width: 600px;
+    height: 53px;
+    background-color:  rgba(86, 40, 210, 0.1);
+    border: 0px;
+    border-radius: 8px;
+    float: left;
+    padding-left: 22px;
+}
+
+.properties > .sorting > input[type="text"]::placeholder {
+    color: rgba(51, 51, 51, 0.48);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.properties > .sorting > .button {
+    background-color: black;
+    width: 183px;
+    height: 40px;
+    float: right;
+    color: white;
+    text-align: center;
+    /* align-items: center; */
+    border-radius: 71px;
+}
+
+.properties > .sorting > .button > p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 12px !important;
+}
+
+.propertydiv {
+    margin-top: 102px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.propertydiv > .propertycard {
+    flex: 30%;
+}
+
+.propertydiv > .propertycard > .card-image {
+    border-radius: 18px;
+    width: 290px;
+    height: 180px;
+}
+
+.propertydiv > .propertycard > .card-text {
+    margin-top:15px;
+}
+
+.propertydiv > .propertycard > .card-text > .heading {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 0px;
+}
+
+.propertydiv > .propertycard > .card-text > .sub-address {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 5px;
+    color: #777777;
+}
+
+.propertydiv > .propertycard > .card-text > .more {
+    margin-top: 15px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    transition: right ease 0.5s;
+}
+
+.propertydiv > .propertycard > .card-text > .more:hover {
+    right: -10px;
+}

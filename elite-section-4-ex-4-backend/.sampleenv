@@ -1,0 +1,2 @@
+DB_CONNECTION=<Mongo DB URL>
+TOKEN_SECRET=<Random Long String> 

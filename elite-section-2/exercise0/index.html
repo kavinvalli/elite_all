@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="#marks-div"><h2>Exercise 0</h2></a>
+    <a href="../exercise1/index.html"><h2>Exercise 1</h2></a>
+    <a href="../exercise2/index.html"><h2>Exercise 2</h2></a>
+    <a href="../exercise3/index.html"><h2>Exercise 3</h2></a>
+    <div class="marks" id="marks-div">
+        <h3>Marks calculator</h3>
+        <form id="questionForm" onsubmit="answerCall(event)">
+            <p>Leave the question untouched if you're not sure(There is negative marking)</p>
+            <p>Marking Scheme (+4,0,-1)</p>
+            <div class="questions" id="questions">
+
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+        <div class="marks" id="marks-given"></div>
+    </div>
+    <div class="multiples" id="multiples-div">
+        <h3>Multiples of a number</h3>
+        <form id="multipleForm" onsubmit="formSubmit(event)">
+            <label for="number">Multiples of which number: </label><br>
+            <input type="number" placeholder="Eg: 1" id="number"><br><br>
+            <label for="upperLimit">Upper Limit: </label><br>
+            <input type="number" placeholder="Eg: 1" id="upperLimit"><br>
+            <input type="submit" value="Submit">
+        </form>
+        <div class="multiplelist" id="multiplelist"></div>
+    </div>
+    <div class="quarter" id="quarter-div">
+        <h3>Month Quarter</h3>
+        <form id="quarterForm" onsubmit="quarterFormSubmit(event)">
+            <select id="month">
+                <option value="0">Choose a Month</option>
+                <option value="1">January</option>
+                <option value="2">February</option>
+                <option value="3">March</option>
+                <option value="4">April</option>
+                <option value="5">May</option>
+                <option value="6">June</option>
+                <option value="7">July</option>
+                <option value="8">August</option>
+                <option value="9">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+            </select>
+            <input type="submit" value="submit">
+        </form>
+        <div class="quarterAnswer" id="quarterAnswer"></div>
+    </div>
+    <div class="messi" id="messi">
+        <h3>Messi Goals</h3>
+        <form id="messiForm" onsubmit="messiSubmit(event)">
+            <p>Wanna see Messi's Goals?</p>
+            <p>Click on the button now!</p>
+            <input type="submit" value="Submit">
+        </form>
+        <div class="messi-goals" id="messi-goals"></div>
+    </div>
+    <div class="fruit" id="fruit">
+        <h3>Fruit by Sum And Difference</h3>
+        <form onsubmit="fruitFormSubmit(event)">
+            <label for="">Enter a number: </label><br>
+            <input type="number" id="fruit-number">
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        <div class="fruit-div" id="fruit-div"></div>
+    </div>
+</body>
+<script src="marks.js"></script>
+<script src="multiples.js"></script>
+<script src="quarter.js"></script>
+<script src="messi.js"></script>
+<script src="fruit.js"></script>
+</html>

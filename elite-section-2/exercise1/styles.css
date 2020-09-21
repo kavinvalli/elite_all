@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+form {
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
+}
+
+.input-group {
+    margin: 25px 0;
+}
+
+.input-group > * {
+    display: block;
+}
+
+.input-group label {
+    font-weight: bold;
+    color: #888;
+}
+
+.input-group input,
+.input-group select {
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #eaeaef;
+    border-radius: 1px;
+    padding: 15px 10px;
+}
+
+button {
+    margin: 0 auto;
+    padding: 15px 20px;
+    background: #2977f5;
+    color: #fff;
+    border-radius: 2px;
+    font-weight: bold;
+    border: none;
+}

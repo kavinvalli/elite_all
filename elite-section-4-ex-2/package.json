@@ -1,0 +1,15 @@
+{
+  "name": "elite-section-4-ex-2",
+  "version": "1.0.0",
+  "description": "ELite Section $ Exercise 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "es6-promise": "^4.2.8",
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
